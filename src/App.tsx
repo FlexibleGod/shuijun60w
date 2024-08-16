@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './App.css';
 
 const getRandomSpecialCharacter = (): string => {
-  const unicodeRangeStart = 0x2600;
-  const unicodeRangeEnd = 0x26FF;
+  const unicodeRangeStart = 0x2500;
+  const unicodeRangeEnd = 0x2BFF;
   const randomCodePoint = Math.floor(Math.random() * (unicodeRangeEnd - unicodeRangeStart + 1)) + unicodeRangeStart;
   return String.fromCodePoint(randomCodePoint);
 };
