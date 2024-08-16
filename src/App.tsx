@@ -83,7 +83,7 @@ const App: React.FC = () => {
 
     const newTimer = setTimeout(() => {
       setMessage('');
-    }, 3000);
+    }, 500);
     setTimer(newTimer);
 
     handleConvert(inputText);
